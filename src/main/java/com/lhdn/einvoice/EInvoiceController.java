@@ -33,6 +33,14 @@ public class EInvoiceController
 	{
 		return "Welcome to EInvoice API with JWT";
 	}
+
+	@GetMapping("/createPass/{newpass}")
+	public String generatePassword(@PathVariable String newpass) 
+	{
+		String hashPass = passwordEncoder.encode(newpass);
+		System.out.println(hashPass);
+		return "Password generated and encoded...";
+	}
 	
 	@PostMapping("/einvoice")
 	public EInvoice submitEInvoice(@RequestBody EInvoice invoice)
