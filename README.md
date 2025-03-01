@@ -1,20 +1,19 @@
 # EInvoice API with JWT
 Developed by Spring Boot V3.4.2, JDK21
 
-### Information 
-* The program uses JWT for authentication
-* Submit EInvoice with Bearer token in header
-Decode EInvoice XML input
-* The program does encoding for EInvoice XM (Coming Soon)
+### Information & Features
+This project uses JWT authentication and call EInvoice API for information.
+* Submit einvoice API while triggering email to notify users (comin soon)
+* Decode einvoice xml input (coming soon)
+* Read PDF file like API 
+* Authenticate JWT and call einvoice API with Bearer token (Current)
 
-### How To Clone Project
+### Cloning and running Project
 git clone https://github.com/whereiswx/einvoice-api.git
-
-### How To Run
 mvn clean install - To build the war file and clean the project
 mvn spring-boot:run - To run the project
 
-### Input For EInvoice JSON/XML
-The file called einvoice-input.txt include the JSON/XML data
+### JSON/XML Details
+File einvoice-input.txt include the JSON/XML data for testing the einvoice API
 
 To note this project for learning purposes only.....
