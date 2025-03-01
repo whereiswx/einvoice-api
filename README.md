@@ -10,7 +10,9 @@ This project uses JWT authentication and call EInvoice API for information.
 
 ### Cloning and running Project
 git clone https://github.com/whereiswx/einvoice-api.git
+
 mvn clean install - To build the war file and clean the project
+
 mvn spring-boot:run - To run the project
 
 ### JSON/XML Details
