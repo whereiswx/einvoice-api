@@ -1,7 +1,7 @@
 EInvoice Input for JSON
 {
 	"EInvoice": {
-		"ValidationDate": "",
+	    "ValidationDate": "",
 	    "UIN": "",
 	    "QRLink": "",
 	    "Version": 1,
